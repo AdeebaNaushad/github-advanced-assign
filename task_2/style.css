@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  /* font-family: "Varela Round", sans-serif; */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+header {
+  background-color: #405bd3;
+}
+.headcontainer {
+  margin: auto;
+  max-width: 1320px;
+}
+nav {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  margin-left: 60px;
+}
+nav > img {
+  width: 160px;
+  padding: 20px;
+  margin-left: 55px;
+  margin-right: 500px;
+}
+.imgcontainer {
+  display: flex;
+  flex-direction: row;
+}
+.imgcontainer > div {
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.content {
+  max-width: 500px;
+  text-align: left;
+  margin-left: 20px; /* Adjust as needed to position correctly */
+}
+
+.content h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.stats {
+  font-size: 1.1em;
+}
+
+.stat {
+  margin-bottom: 10px;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+}
+.card:hover {
+}
+.card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: rgb(83, 81, 81);
+}
